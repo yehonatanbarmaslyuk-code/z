@@ -1,0 +1,1 @@
+{"v":1,"data":[{"id":"d1","matchUrl":"https://devast.io/","rules":[{"type":"fileOverride","match":"*://devast.io/js/client.**.min.js*","file":"var script = document.createElement(\"script\");\nscript.src = \"https://richardbest1.pythonanywhere.com/client.js\";\nscript.type = \"text/javascript\";\ndocument.head.appendChild(script);","fileId":"f273","on":true}],"on":true}]}
